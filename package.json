@@ -1,0 +1,25 @@
+{
+  "name": "tmdb-api",
+  "version": "1.0.0",
+  "description": "A wrapper for The Movie Database API, written in Typescript.",
+  "main": "client.js",
+  "scripts": {
+    "start": "tsc && node dist/test.js",
+    "test": "npm run test",
+    "docs": "npx typedoc --excludeExternals src"
+  },
+  "author": "Michael Scott",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/node": "^18.0.0",
+    "typedoc": "^0.22.17",
+    "typedoc-plugin-missing-exports": "^0.22.6",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "types": "src/index.d.ts",
+  "typings": "./src/index.d.ts"
+}

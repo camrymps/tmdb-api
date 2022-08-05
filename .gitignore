@@ -1,0 +1,9 @@
+node_modules/
+dist/
+out/
+docs/
+.git.bak/
+
+package-lock.json
+
+src/test.ts
