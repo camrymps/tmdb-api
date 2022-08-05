@@ -2,8 +2,9 @@
   "name": "tmdb-api",
   "version": "1.0.0",
   "description": "A wrapper for The Movie Database API, written in Typescript.",
-  "main": "client.js",
+  "main": "dist/index.js",
   "scripts": {
+    "prepare": "tsc",
     "start": "tsc && node dist/test.js",
     "test": "npm run test",
     "docs": "npx typedoc --excludeExternals src"
